@@ -1,0 +1,40 @@
+{
+  "name": "blocktodo",
+  "version": "1.0.0",
+  "description": "A blockchain todo etherum app",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louieee/BlockToDo.git"
+  },
+  "keywords": [
+    "blockchain",
+    "ehterum",
+    "web3",
+    "todo"
+  ],
+  "author": "Ohaegbu Louis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/louieee/BlockToDo/issues"
+  },
+  "homepage": "https://github.com/louieee/BlockToDo#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^3.0.0",
+    "lite-server": "^2.5.4",
+    "nodemon": "^2.0.4",
+    "popper.js": "^1.16.1",
+    "truffle": "^5.0.2",
+    "truffle-contract": "^3.0.6"
+  }
+}
